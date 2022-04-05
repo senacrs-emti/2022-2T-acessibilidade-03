@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#secao1 {
+    width: 100%;
+    height: 700px;
+    background-color: #00BAF7;
+    color: #005A78;
+}
+h1{
+    margin: 0;
+    padding: 15px;
+}
+#secao1 img{
+    width: 30%;
+    float: right;
+    padding-right: 10px;
+}
+#secao2 {
+    width: 100%;
+    height: 700px;
+    background-color: #005A78;
+    color: #3BA2C4;
+}
+#secao3 {
+    width: 100%;
+    height: 700px;
+    background-color: #0093C4;
+    color: #003445;
+}
+#grad1 {
+    height: 30px;
+    background-image: linear-gradient(#00BAF7, #005A78);
+}
+#grad2 {
+    height: 30px;
+    background-image: linear-gradient(#005A78, #0093C4);
+}
+p {
+    font-size: large;
+    
+}
