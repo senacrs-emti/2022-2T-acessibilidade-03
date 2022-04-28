@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <div id="docu">
+        <h1 style="width: fit-content;">Função de auto-scroll </h1> 
+        <p class="txt1"> "A primeira função de acessilidade é a de auto-scroll (traduzindo literalmente, seria o rolamento de tela automático) ele foi feito da seguinte forma, utilizando primariamente o html5 em suas funções, primeiramente foram criadas classes para partes distintas do site, separando por conteúdo, algo similar a (a) href=”secao1”), depois disso se foi adicionado botões na posição (Fixed) no canto direito da tela com os nomes das áreas previamente lincadas, desta maneira (button class="botao" style="padding: 10px;")Limitação Motora(/button) com isso o código dever ser de maneira similar a este:" </p>
+    <div class="container" style="background-color: black; color: white;">
+        <span>
+            <span><</span>div id="col-botoes"<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container">
+            <span><</span>a href="secao1"<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container" style="margin-left: 10px;">
+            <span><</span>button class="botao" style="padding: 10px;"<span>></span>Limitação Motora<span><</span>button<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container">
+            <span><</span>/a<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container">
+            <span><</span>a href="secao2"<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container" style="margin-left: 10px;">
+            <span><</span>button class="botao" style="padding: 10px;"<span>></span>Seus Tipos<span><</span>button<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container">
+            <span><</span>/a<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container">
+            <span><</span>a href="secao3"<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container" style="margin-left: 10px;">
+            <span><</span>button class="botao" style="padding: 10px;"<span>></span>Adaptar o seu site<span><</span>button<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container">
+            <span><</span>/a<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container">
+            <span><</span>a href="secao4"<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container" style="margin-left: 10px;">
+            <span><</span>button class="botao" style="padding: 10px;"<span>></span>Referências<span><</span>button<span>></span>
+        </span>
+        <br>
+        <br>
+        <span class="container">
+            <span><</span>/a<span>></span>
+        </span>
+        <br>
+        <br>
+        <span>
+            <span><</span>/div<span>></span>
+        </span>
+    </div>
+    
+        <img src="imgs/codigo1.png" style="width: 50%;" alt="">
+        <p class="txt1"> Desta maneira quando ativado os botões direcionam o usuário a respectiva categoria do texto dentro da página, neste caso separamos o site em 4 principais tópicos, com 4 secções, além disso utilizamos de CSS para deixar o design dos botões mais condizentes ao resto da página, usamos a função de (hover) e (background-color) da seguinte maneira: </p>
+    <div class="container cod1">
+            <span class="container">.botao{</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">background-color: transparent;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">color: white;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">border: 3px solid white;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">border-radius: 10px;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">margin-top: 10px;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">transition-duration: 0.4s;</span>
+            <br>
+            <br>
+            <span class="container">}</span>
+            <br>
+            <br>
+            <span class="container">.botao:hover{</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">background-color: black;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">color: white;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">border: 3px solid white;</span>
+            <br>
+            <br>
+            <span class="container">}</span>
+            <br>
+            <br>
+            <span class="container">#col-botoes{</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">float: right;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">position: fixed;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">height: 300px;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">margin-left: 1214px;</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 10px;">width: 8px;</span>
+            <br>
+            <br>
+            <span class="container">}</span>
+            
+     </div>
+        <img src="imgs/codigo2.png" style="width: 36%; margin-left: 69px;" alt="">
+        <p class="txt1"> Também (height), (width) e (margin/border) para melhor alinhamento dos mesmos no espaço selecionado, com esta junção de fatores temos a função de auto-scroll utilizada na nossa página de acessibilidade a portadores de deficiências motoras nas mãos.</p>
+    </div>
+</body>
+</html>
