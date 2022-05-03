@@ -145,6 +145,46 @@
             
      </div>
         <p class="txt1"> Também (height), (width) e (margin/border) para melhor alinhamento dos mesmos no espaço selecionado, com esta junção de fatores temos a função de auto-scroll utilizada na nossa página de acessibilidade a portadores de deficiências motoras nas mãos.</p>
+        <br>
+        <br>
+        <h1>Função Auto-click</h1>
+        <p>A função de auto-click é utilizada para poder auxiliar no uso do site, o click ocorre automaticamente a cada 5 segundos quando acima de um botão ou area clickavel, para assim junto do auto-scroll diminuir o número de clicks necessários pelos usuários portadores de deficiências motoras nas mãos. </p>
+        <div class="container cod1">
+            <span>// metodo de <span><</span>hover<span>></span> na ancora/link </span>
+            <br>
+            <br>
+            <span class="container">$('a').hover(function(){ </span>
+            <br>
+            <br>
+            <span>// Coordena o <span><</span>delay<span>></span> na leitura do documento</span>
+            <br>
+            <br>
+            <span class="container">setTimeout(() => {</span>
+            <br>
+            <br>
+            <span>// Faz o <span><</span>action-click<span>></span> no elemento atual</span>
+            <br>
+            <br>
+            <span class="container" style="margin-left: 50px;">sessao = $(this).attr('href');</span>
+            <br>
+            <span class="container" style="margin-left: 50px;">$( this ).trigger( "click" ); </span>
+            <br>
+            <span class="container" style="margin-left: 50px;">window.location.href="./index.html"+sessao;</span>
+            <br>
+            <span class="container" style="margin-left: 40px;">} , 2000);</span>
+            <br>
+            <span class="container" style="margin-left: 35px;">} );</span>
+            <br>
+            <span class="container" style="margin-left: 30px;">//} );</span>
+            <br>
+            <br>
+            <span>// No html: <span><</span>button onclick="setTimeout(fu)"><span><</span>/button<span>></span> </span>
+        </div>
+        <br>
+        <br>
+        <p>Com essas funções o auto-click irá automaticamente selecionar botões ou links selecionados pelo usuário dentro de um deliminado período de tempo. 
+            </p>
     </div>
+
 </body>
 </html>
