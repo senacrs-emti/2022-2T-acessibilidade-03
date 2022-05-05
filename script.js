@@ -5,7 +5,7 @@ $('a').hover(function(){
         sessao = $(this).attr('href');
         
 
-        window.location.href="./index.html"+sessao;
+        window.location.href="./index.html/"+sessao;
 
     }, 2000);
 });
